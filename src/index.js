@@ -5,9 +5,8 @@ import './index.css';
 // import Card from './Card';
 import 'tachyons';
 import registerServiceWorker from './registerServiceWorker';
-import App from './App';
-import CardList from './CardList';
-import { robots } from './robots';
+import App from './containers/App';
+
 
 ReactDOM.render(
   <App />
