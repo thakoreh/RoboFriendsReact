@@ -10,6 +10,6 @@ import CardList from './CardList';
 import { robots } from './robots';
 
 ReactDOM.render(
-  <CardList robots={robots}/>
+  <App />
   , document.getElementById('root'));
 registerServiceWorker();
